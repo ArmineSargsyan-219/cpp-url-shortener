@@ -16,7 +16,7 @@ void loadDatabase(){
 }
 
 void saveDatabase(){
-  std::ofstream file("uel_db.txt");
+  std::ofstream file("url_db.txt");
   for (const auto& pair : urlDatabase){
     file << pair.first << std::endl << pair.second << std::endl;
   }
